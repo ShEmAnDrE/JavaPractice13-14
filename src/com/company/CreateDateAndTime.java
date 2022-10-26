@@ -51,11 +51,11 @@ public class CreateDateAndTime {
         }
         if (month == 2) {
             if (checkYear(year)) {
-                if (year > 29) {
+                if (day > 29) {
                     return false;
                 }
             } else {
-                if (year > 28) {
+                if (day > 28) {
                     return false;
                 }
             }
